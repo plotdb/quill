@@ -24,10 +24,10 @@
   },
   "scripts": {
     "build": "run-p build:*",
-    "build:quill": "npm run build -w quill",
+    "build:quill": "npm run build -w @plotdb/quill",
     "build:website": "npm run build -w website",
     "start": "run-p start:*",
-    "start:quill": "npm start -w quill",
+    "start:quill": "npm start -w @plotdb/quill",
     "start:website": "NEXT_PUBLIC_LOCAL_QUILL=true npm start -w website",
     "lint": "npm run lint -ws"
   },
